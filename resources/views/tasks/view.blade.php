@@ -89,7 +89,7 @@
 
         // Attach delete function to the delete button 
         document.getElementById('deleteButton').onclick = deleteTask;
-
+ 
         // Call fetchTask when page loads
         document.addEventListener('DOMContentLoaded', fetchTask);
     </script>
