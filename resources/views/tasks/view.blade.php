@@ -84,7 +84,7 @@
 
         // Redirect to edit task
         document.getElementById('editButton').onclick = function() {
-            window.location.href = `http://127.0.0.1:8000/tasks/edit?id=${taskId}`;
+            window.location.href = `http://127.0.0.1:8000/tasks/edit?id=${taskId}`; 
         };
 
         // Attach delete function to the delete button
