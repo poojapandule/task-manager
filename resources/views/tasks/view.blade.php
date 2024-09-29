@@ -87,7 +87,7 @@
             window.location.href = `http://127.0.0.1:8000/tasks/edit?id=${taskId}`; 
         };
 
-        // Attach delete function to the delete button
+        // Attach delete function to the delete button 
         document.getElementById('deleteButton').onclick = deleteTask;
 
         // Call fetchTask when page loads
